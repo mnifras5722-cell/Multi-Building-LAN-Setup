@@ -1,0 +1,63 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36" version="29.6.4">
+  <diagram name="Page-1" id="cVc9ASH-AvvPnFC-6N0Y">
+    <mxGraphModel dx="1090" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="l-hDKpAouircaEYTy0Pm-13" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=23;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="Building A" vertex="1">
+          <mxGeometry height="440" width="340" x="420" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="l-hDKpAouircaEYTy0Pm-14" parent="l-hDKpAouircaEYTy0Pm-13" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.wireless_router;" value="Dialog Wifi Router&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;(192.16.8.1)&lt;/span&gt;" vertex="1">
+          <mxGeometry height="50" width="70" x="135" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="l-hDKpAouircaEYTy0Pm-15" parent="l-hDKpAouircaEYTy0Pm-13" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.switch;" value="Switch A" vertex="1">
+          <mxGeometry height="50" width="70" x="135" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="l-hDKpAouircaEYTy0Pm-16" parent="l-hDKpAouircaEYTy0Pm-13" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.computer;" value="IT Assistant PC&lt;div&gt;(192.168.8.11)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="80" x="40" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="l-hDKpAouircaEYTy0Pm-17" parent="l-hDKpAouircaEYTy0Pm-13" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.computer;" value="Accountant PC&lt;div&gt;(192.168.8.10)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="80" x="220" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="l-hDKpAouircaEYTy0Pm-18" edge="1" parent="l-hDKpAouircaEYTy0Pm-13" source="l-hDKpAouircaEYTy0Pm-14" style="rounded=0;" target="l-hDKpAouircaEYTy0Pm-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l-hDKpAouircaEYTy0Pm-19" edge="1" parent="l-hDKpAouircaEYTy0Pm-13" source="l-hDKpAouircaEYTy0Pm-15" style="rounded=0;" target="l-hDKpAouircaEYTy0Pm-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l-hDKpAouircaEYTy0Pm-20" edge="1" parent="l-hDKpAouircaEYTy0Pm-13" source="l-hDKpAouircaEYTy0Pm-15" style="rounded=0;" target="l-hDKpAouircaEYTy0Pm-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l-hDKpAouircaEYTy0Pm-21" parent="1" style="swimlane;whiteSpace=wrap;html=1;startSize=23;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="Building B" vertex="1">
+          <mxGeometry height="440" width="440" x="850" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="l-hDKpAouircaEYTy0Pm-22" parent="l-hDKpAouircaEYTy0Pm-21" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.switch;" value="Switch B" vertex="1">
+          <mxGeometry height="50" width="70" x="135" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="l-hDKpAouircaEYTy0Pm-23" parent="l-hDKpAouircaEYTy0Pm-21" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.computer;" value="Account Assistant PC&lt;div&gt;(192.168.8.20)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="80" x="130" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="l-hDKpAouircaEYTy0Pm-24" parent="l-hDKpAouircaEYTy0Pm-21" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.printer;" value="USB Printer" vertex="1">
+          <mxGeometry height="40" width="60" x="30" y="285" as="geometry" />
+        </mxCell>
+        <mxCell id="l-hDKpAouircaEYTy0Pm-25" parent="l-hDKpAouircaEYTy0Pm-21" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.scanner;" value="Fingerprint Attendance Device&lt;div&gt;(192.168.8.22)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="80" x="320" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="l-hDKpAouircaEYTy0Pm-26" edge="1" parent="l-hDKpAouircaEYTy0Pm-21" source="l-hDKpAouircaEYTy0Pm-22" style="rounded=0;" target="l-hDKpAouircaEYTy0Pm-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l-hDKpAouircaEYTy0Pm-27" edge="1" parent="l-hDKpAouircaEYTy0Pm-21" source="l-hDKpAouircaEYTy0Pm-23" style="dashed=1;rounded=0;" target="l-hDKpAouircaEYTy0Pm-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l-hDKpAouircaEYTy0Pm-28" edge="1" parent="l-hDKpAouircaEYTy0Pm-21" source="l-hDKpAouircaEYTy0Pm-22" style="rounded=0;" target="l-hDKpAouircaEYTy0Pm-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l-hDKpAouircaEYTy0Pm-29" edge="1" parent="1" source="l-hDKpAouircaEYTy0Pm-15" style="rounded=0;" target="l-hDKpAouircaEYTy0Pm-22" value="Ethernet Link">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
